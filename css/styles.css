@@ -1,0 +1,61 @@
+/*
+ * Refined Woodworks starter page
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&display=swap');
+
+:root {
+  --serif: "Lora", serif;
+  --sans: "Inter", sans-serif;
+  --space: 30px;
+  --cap: 650px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 20px/1.4em var(--sans);
+  padding-bottom: calc(var(--space) * 2);
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: var(--space);
+}
+
+header .h1 {
+  font: 400 40px/1em var(--serif);
+  text-align: center;
+  margin: 0;
+}
+
+header .h1 span {
+  display: block;
+  font: 300 20px/1em var(--sans);
+}
+
+section {
+  margin: 0 auto;
+  padding: var(--space);
+  max-width: var(--cap);
+}
+
+h2 {
+  font-weight: 200;
+}
+
+.button {
+  font: 600 18px/1em var(--sans);
+  text-decoration: none;
+  background-color: #3F3075;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #251758;
+}
